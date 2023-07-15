@@ -7,9 +7,4 @@ export class AppController {
   constructor(
     @Inject(PubSubService) private readonly pubSubService: PubSubService,
   ) {}
-
-  @Get('subscribe')
-  subscribe(): Observable<string> {
-    return this.pubSubService.subscribe('ousf');
-  }
 }
