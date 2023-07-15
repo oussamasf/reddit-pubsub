@@ -1,4 +1,5 @@
 # PubSub using Nest and Redis
+***I made a typo in repo title but just ignore it😅***
 
 This repository contains a simple implementation of a publish-subscribe (PubSub) system using Nest.js and Redis.
 
